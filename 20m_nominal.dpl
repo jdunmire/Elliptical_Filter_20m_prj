@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.17>
 <Properties>
-  <View=-106,0,851,800,1,0,0>
+  <View=-97,-10,811,467,1.09361,0,0>
   <Grid=10,10,0>
   <DataSet=20m_nominal.dat>
   <DataDisplay=20m_nominal.sch>
@@ -20,10 +20,10 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect 0 260 764 230 3 #c0c0c0 1 10 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+  <Rect 0 260 764 230 3 #c0c0c0 1 10 1 1e+07 1 1e+08 1 -93.2372 20 8.47611 1 -1 0.5 1 315 0 225 "Frequency (Hz)" "dB" "">
 	<"S21_dB" #0000ff 0 3 0 0 0>
   </Rect>
-  <Tab -8 407 770 77 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+  <Tab -8 427 770 77 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
 	<"max_dB" #0000ff 0 3 1 0 0>
 	<"freq_3db" #0000ff 0 3 1 0 0>
 	<"freq_43db" #0000ff 0 3 1 0 0>
@@ -32,4 +32,5 @@
   </Tab>
 </Diagrams>
 <Paintings>
+  <Text -10 320 12 #000000 0 "Results Table:">
 </Paintings>
